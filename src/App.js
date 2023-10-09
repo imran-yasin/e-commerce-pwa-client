@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-
+import Topbar from "./components/Topbar/Index.js";
 function App() {
   const [data, setData] = useState();
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1>PWA with react js </h1>
+      <Topbar />
       <div
         style={{
           display: "flex",
