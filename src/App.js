@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Topbar from "./components/Topbar/Index.js";
-import ProductCard from "./components/Products/ProductCard";
+
+import AppRouter from "./routes/index";
+import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <div>
-      <Topbar />
-      <ProductCard />
+      <ToastContainer />
+      <AppRouter />
     </div>
   );
 }

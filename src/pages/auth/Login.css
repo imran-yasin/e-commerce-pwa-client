@@ -1,0 +1,76 @@
+.login_mainDiv {
+  height: 100vh;
+  background-image: url("../../assets/login/login-bg.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.loginLogoImg {
+  margin-top: 20px;
+  width: 17%;
+}
+
+@media only screen and (max-width: 600px) {
+  .login_mainDiv {
+    height: 100vh;
+    background-image: url("../../assets/login/login_responsive.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .loginLogoImg {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .loginLogoImg {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .loginLogoImg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 2560px) {
+  .loginLogoImg {
+    width: 13%;
+  }
+}
